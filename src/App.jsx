@@ -13,21 +13,26 @@ function App() {
 
   return (
     <>
-          <Navbar/>
+      <Navbar />
       <Router>
         <Switch>
           {/* home */}
           <Route exact path="/test">
-            <Test/>
+            <Test />
           </Route>
+
           {/* home */}
+          
           <Route exact path="/">
             <CourseList />
           </Route>
+
           {/* logins */}
+
           <Route exact path="/register">
             <Register />
           </Route>
+
           <Route exact path="/login">
             <Login />
           </Route>
@@ -45,4 +50,3 @@ function App() {
 }
 
 export default App
- 
